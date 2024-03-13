@@ -33,17 +33,17 @@ class SignUp extends StatelessWidget {
               ),
               const CustomTextfield(
                 obscureText: false,
-                hintText: 'Enter Email',
+                hintText: 'Email',
                 icon: Icons.alternate_email,
               ),
               const CustomTextfield(
                 obscureText: false,
-                hintText: 'Enter Full name',
+                hintText: 'Nom complet',
                 icon: Icons.person,
               ),
               const CustomTextfield(
                 obscureText: true,
-                hintText: 'Enter Password',
+                hintText: 'Mot de passe',
                 icon: Icons.lock,
               ),
               const SizedBox(
@@ -61,7 +61,7 @@ class SignUp extends StatelessWidget {
                       const EdgeInsets.symmetric(horizontal: 10, vertical: 20),
                   child: const Center(
                     child: Text(
-                      'Sign Up',
+                      'Inscription',
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 18.0,
@@ -100,7 +100,7 @@ class SignUp extends StatelessWidget {
                       child: Image.asset('assets/images/google.png'),
                     ),
                     Text(
-                      'Sign Up with Google',
+                      'Continuer avec google',
                       style: TextStyle(
                         color: Constants.blackColor,
                         fontSize: 18.0,
@@ -124,13 +124,13 @@ class SignUp extends StatelessWidget {
                   child: Text.rich(
                     TextSpan(children: [
                       TextSpan(
-                        text: 'Have an Account? ',
+                        text: 'Tu as un compte? ',
                         style: TextStyle(
                           color: Constants.blackColor,
                         ),
                       ),
                       TextSpan(
-                        text: 'Login',
+                        text: 'Connexion',
                         style: TextStyle(
                           color: Constants.primaryColor,
                         ),

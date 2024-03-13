@@ -2,7 +2,6 @@ import 'package:commerce/constants.dart';
 import 'package:commerce/ui/screens/widgets/profile_widget.dart';
 import 'package:flutter/material.dart';
 
-
 class ProfilePage extends StatelessWidget {
   const ProfilePage({Key? key}) : super(key: key);
 
@@ -40,7 +39,7 @@ class ProfilePage extends StatelessWidget {
               child: Row(
                 children: [
                   Text(
-                    'Namila Shop',
+                    'Namila',
                     style: TextStyle(
                       color: Constants.blackColor,
                       fontSize: 20,

@@ -24,7 +24,7 @@ class SignIn extends StatelessWidget {
             children: [
               Image.asset('assets/images/image_1.png'),
               const Text(
-                'Sign In',
+                'Connexion',
                 style: TextStyle(
                   fontSize: 35.0,
                   fontWeight: FontWeight.w700,
@@ -35,12 +35,12 @@ class SignIn extends StatelessWidget {
               ),
               const CustomTextfield(
                 obscureText: false,
-                hintText: 'Enter Email',
+                hintText: 'Email',
                 icon: Icons.alternate_email,
               ),
               const CustomTextfield(
                 obscureText: true,
-                hintText: 'Enter Password',
+                hintText: 'Mot de passe',
                 icon: Icons.lock,
               ),
               const SizedBox(
@@ -64,7 +64,7 @@ class SignIn extends StatelessWidget {
                       const EdgeInsets.symmetric(horizontal: 10, vertical: 20),
                   child: const Center(
                     child: Text(
-                      'Sign In',
+                      'Connexion',
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 18.0,
@@ -88,13 +88,13 @@ class SignIn extends StatelessWidget {
                   child: Text.rich(
                     TextSpan(children: [
                       TextSpan(
-                        text: 'Forgot Password? ',
+                        text: 'Mot de passe oublié ?',
                         style: TextStyle(
                           color: Constants.blackColor,
                         ),
                       ),
                       TextSpan(
-                        text: 'Reset Here',
+                        text: 'modifier ici',
                         style: TextStyle(
                           color: Constants.primaryColor,
                         ),
@@ -111,7 +111,7 @@ class SignIn extends StatelessWidget {
                   Expanded(child: Divider()),
                   Padding(
                     padding: EdgeInsets.symmetric(horizontal: 10),
-                    child: Text('OR'),
+                    child: Text('OU'),
                   ),
                   Expanded(child: Divider()),
                 ],
@@ -134,7 +134,7 @@ class SignIn extends StatelessWidget {
                       child: Image.asset('assets/images/google.png'),
                     ),
                     Text(
-                      'Sign In with Google',
+                      'Continuer avec google',
                       style: TextStyle(
                         color: Constants.blackColor,
                         fontSize: 18.0,
@@ -158,13 +158,13 @@ class SignIn extends StatelessWidget {
                   child: Text.rich(
                     TextSpan(children: [
                       TextSpan(
-                        text: 'New to Planty? ',
+                        text: 'Nouveau ? ',
                         style: TextStyle(
                           color: Constants.blackColor,
                         ),
                       ),
                       TextSpan(
-                        text: 'Register',
+                        text: 'Inscription',
                         style: TextStyle(
                           color: Constants.primaryColor,
                         ),
